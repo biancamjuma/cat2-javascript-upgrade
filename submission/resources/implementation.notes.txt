@@ -1,0 +1,18 @@
+ForumTech Consulting,JavaScript Implementation Notes
+
+1. Dynamic Services
+Stored the services in a JavaScript array of objects.Used forEach() to create and display the service cards dynamically in the Services section.
+
+2. Add and Remove Items
+Created a service request list where users can add new items.Used createElement() and appendChild() to add items.Added a Remove button to each item using remove().
+
+3. Form Validation
+
+Added a contact form with JavaScript validation.Used event.preventDefault() to stop the page from refreshing. Used .value to read user input and textContent to display validation messages.
+
+4. localStorage
+Used localStorage to save the user's name. The saved name is automatically restored when the page is refreshed.
+
+5. Banner Click Reveal
+
+Added a click event to the banner image. Used classList.toggle() to show and hide additional information about ForumTech Consulting.
