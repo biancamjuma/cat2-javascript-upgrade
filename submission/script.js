@@ -36,3 +36,41 @@ card.innerHTML = `
 servicesContainer.appendChild(card);
 
 });
+const input=document.getElementById("serviceInput");
+
+const button=document.getElementById("addButton");
+
+const list=document.getElementById("serviceList");
+button.addEventListener("click",function(){
+
+const text=input.value.trim();
+
+if(text===""){
+
+alert("Please enter a service.");
+
+return;
+
+}
+
+const li=document.createElement("li");
+
+li.textContent=text;
+
+const remove=document.createElement("button");
+
+remove.textContent="Remove";
+
+remove.addEventListener("click",function(){
+
+li.remove();
+
+});
+
+li.appendChild(remove);
+
+list.appendChild(li);
+
+input.value="";
+
+});
