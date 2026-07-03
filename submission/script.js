@@ -100,3 +100,18 @@ feedback.textContent="Thank you! We will contact you shortly.";
 }
 
 });
+const nameInput=document.getElementById("name");
+
+const savedName=localStorage.getItem("username");
+
+if(savedName){
+
+nameInput.value=savedName;
+
+}
+
+nameInput.addEventListener("input",function(){
+
+localStorage.setItem("username",nameInput.value);
+
+});
