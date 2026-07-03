@@ -7,7 +7,7 @@ description:"Professional real-time translation services for international confe
 
 {
 name:"Conference Logistics",
-description:"Planning assistance and technical management for multilingual conferences."
+description:"Planning assistance and technical management for multilinguall conferences."
 },
 
 {
