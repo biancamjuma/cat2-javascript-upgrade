@@ -74,3 +74,29 @@ list.appendChild(li);
 input.value="";
 
 });
+const form=document.getElementById("contactForm");
+
+const feedback=document.getElementById("feedback");
+form.addEventListener("submit",function(event){
+
+event.preventDefault();
+
+const name=document.getElementById("name").value;
+
+const email=document.getElementById("email").value;
+
+const message=document.getElementById("message").value;
+
+if(name===""||email===""||message===""){
+
+feedback.textContent="Please fill in all fields.";
+
+}
+
+else{
+
+feedback.textContent="Thank you! We will contact you shortly.";
+
+}
+
+});
