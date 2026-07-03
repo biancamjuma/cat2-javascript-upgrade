@@ -180,3 +180,24 @@ footer {
         padding: 4rem 15%;
     }
 }
+.hidden{
+
+display:none;
+
+}
+
+.show{
+
+display:block;
+
+text-align:center;
+
+padding:20px;
+
+font-size:18px;
+
+background:#663366;
+
+color:white;
+
+}

@@ -115,3 +115,12 @@ nameInput.addEventListener("input",function(){
 localStorage.setItem("username",nameInput.value);
 
 });
+const banner=document.getElementById("banner");
+
+const bannerText=document.getElementById("bannerText");
+
+banner.addEventListener("click",function(){
+
+bannerText.classList.toggle("show");
+
+});
